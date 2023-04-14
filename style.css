@@ -1,0 +1,84 @@
+body, html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(220, 215, 248);
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.input-group{
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-control{
+    border-color: slateblue;
+}
+
+.input-group-text{
+    border-radius: 20px;
+    border-color: slateblue;
+    background-color: rgb(163, 150, 241);
+}
+
+#submitButton{
+    background-color: slateblue;
+    border-color: rgb(163, 150, 241);
+    border-radius: 20px;
+}
+
+#submitButton:hover{
+    background-color: rgb(163, 150, 241);
+}
+
+.informationBox{
+    color: white;
+    background-color: rgb(163, 150, 241);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+#addButton{
+    background-color: slateblue;
+    border-color: rgb(163, 150, 241);
+}
+
+.alertMessage{
+    margin: 5px;
+    padding: 5px;
+    color: slateblue;
+    display: inline-block;
+}
+
+.table{
+    background-color: rgb(163, 150, 241);
+    color: white;
+}
+
+#main-navbar{
+    background-color: rgb(163, 150, 241) !important;
+    font-size: 15px;
+}     
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #efefef;
+    text-align: center;
+} 
+
+.btn{
+    margin: 5px;
+    padding: 5px;
+}
+
+input{
+    border-radius: 20px;
+    background-color: rgb(163, 150, 241);
+    border-style: double;
+    border-color: slateblue;
+    color: white;
+}
